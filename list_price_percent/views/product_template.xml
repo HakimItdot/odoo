@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2017-20 ForgeFlow S.L.
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+<odoo>
+    <record id="view_price_percent" model="ir.ui.view">
+        <field name="name">Sales price percent</field>
+        <field name="model">product.template</field>
+        <field name="inherit_id" ref="product.product_template_form_view"/>
+        <field name="arch" type="xml">
+            <field name="taxes_id" position="before">
+                <field name="percent_margin"/>
+            </field>
+        </field>
+    </record>
+
+    <record id="view_price_percent_tree" model="ir.ui.view">
+        <field name="name">Sales price percent tree</field>
+        <field name="model">product.template</field>
+        <field name="inherit_id" ref="product.product_template_tree_view"/>
+        <field name="arch" type="xml">
+            <!-- <xpath expr="//field[@name='list_price']" position="after">
+                <field name="percent_margin" groups="list_price_percent.group_product_template"/>
+            </xpath> -->
+            <field name="list_price" position="after">
+                <field name="percent_margin"/>
+            </field>
+        </field>
+    </record>
+    
+<!--    
+    <record id="view_price_percent2" model="ir.ui.view">
+        <field name="name">product.template.search.inherit</field>
+        <field name="model">product.template</field>
+        <field name="inherit_id" ref="product.product_template_search_view"/>
+        <field name="arch" type="xml">
+            <xpath expr="//search" position="inside">
+                <filter string="Percent Margin" name="Percent Margin" context="{'group_by':'percent_margin'}"/>
+            </xpath>
+        </field>
+    </record>
+-->
+</odoo>
