@@ -17,7 +17,7 @@ class ListPricePercent(models.Model):
     
     @api.onchange('standard_price', 'percent_margin')
     def _compute_list_price(self):
-        Coeff = 1.017
+        Coeff = 1.117
         for record in self:
             if record.percent_margin:
                 record.list_price = 0
@@ -26,7 +26,7 @@ class ListPricePercent(models.Model):
                 
     @api.onchange('standard_price', 'list_price')          
     def _compute_margin_price(self):
-        Coeff = 1.017
+        Coeff = 1.117
         for record in self:
             if record.list_price:
                 record.percent_margin = 0
