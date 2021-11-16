@@ -34,7 +34,7 @@
                             <field name="company_currency_id" invisible="1"/>
                             <field name="state"/>
                             <!-- <field name="type" invisible="context.get('type',True)"/> -->
-                            <field name="type" attrs="{'invisible': [('type','=',True)]}"/>
+                            <field name="type" attrs="{'invisible': [('type','==',True)]}"/>
                         </tree>
                     </field>
                     <field name="unpaid_order_ids" attrs="{'invisible': [('unpaid_order_ids','==', [])]}">
