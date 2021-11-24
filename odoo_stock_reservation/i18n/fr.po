@@ -90,7 +90,7 @@ msgstr ""
 #. module: odoo_stock_reservation
 #: model:ir.model.fields,field_description:odoo_stock_reservation.field_sale_order__is_stock_reservation_order
 msgid "Apply Stock Reservation?"
-msgstr ""
+msgstr "Résever le stock?"
 
 #. module: odoo_stock_reservation
 #: model:ir.model.fields,field_description:odoo_stock_reservation.field_stock_move_reservation__backorder_id
@@ -110,12 +110,12 @@ msgstr ""
 #. module: odoo_stock_reservation
 #: model_terms:ir.ui.view,arch_db:odoo_stock_reservation.view_order_form_inherit_stock_reservation
 msgid "Cancel Stock Reservation"
-msgstr ""
+msgstr "Annuler la réservation de stock"
 
 #. module: odoo_stock_reservation
 #: model:ir.model.fields,field_description:odoo_stock_reservation.field_stock_move_reservation__product_uom_category_id
 msgid "Category"
-msgstr ""
+msgstr "Catégorie"
 
 #. module: odoo_stock_reservation
 #: model:ir.model.fields,help:odoo_stock_reservation.field_stock_move_reservation__scrapped
@@ -126,7 +126,7 @@ msgstr ""
 #. module: odoo_stock_reservation
 #: model:ir.model.fields,field_description:odoo_stock_reservation.field_stock_move_reservation__company_id
 msgid "Company"
-msgstr ""
+msgstr "Société"
 
 #. module: odoo_stock_reservation
 #: model:ir.model.fields,help:odoo_stock_reservation.field_stock_move_reservation__product_uom_category_id
@@ -138,17 +138,17 @@ msgstr ""
 #. module: odoo_stock_reservation
 #: model_terms:ir.actions.act_window,help:odoo_stock_reservation.action_stock_move_reserv_product
 msgid "Create New Stock Move Reservation"
-msgstr ""
+msgstr "Créer une nouvelle réservation de stock"
 
 #. module: odoo_stock_reservation
 #: model_terms:ir.ui.view,arch_db:odoo_stock_reservation.wiz_stock_reservation_view
 msgid "Create Reservation"
-msgstr ""
+msgstr "Réserver"
 
 #. module: odoo_stock_reservation
 #: model_terms:ir.ui.view,arch_db:odoo_stock_reservation.view_order_form_inherit_stock_reservation
 msgid "Create Stock Reservation"
-msgstr ""
+msgstr "Réserverle stock"
 
 #. module: odoo_stock_reservation
 #: model:ir.model.fields,field_description:odoo_stock_reservation.field_stock_move_reservation__created_purchase_line_id
@@ -160,14 +160,14 @@ msgstr ""
 #: model:ir.model.fields,field_description:odoo_stock_reservation.field_stock_reservation__create_uid
 #: model:ir.model.fields,field_description:odoo_stock_reservation.field_stock_reservation_line__create_uid
 msgid "Created by"
-msgstr ""
+msgstr "Crée par"
 
 #. module: odoo_stock_reservation
 #: model:ir.model.fields,field_description:odoo_stock_reservation.field_stock_move_reservation__create_date
 #: model:ir.model.fields,field_description:odoo_stock_reservation.field_stock_reservation__create_date
 #: model:ir.model.fields,field_description:odoo_stock_reservation.field_stock_reservation_line__create_date
 msgid "Created on"
-msgstr ""
+msgstr "Crée le"
 
 #. module: odoo_stock_reservation
 #: model:ir.model.fields,help:odoo_stock_reservation.field_stock_move_reservation__date_deadline
@@ -177,22 +177,22 @@ msgstr ""
 #. module: odoo_stock_reservation
 #: model:ir.model.fields,field_description:odoo_stock_reservation.field_stock_move_reservation__date
 msgid "Date Scheduled"
-msgstr ""
+msgstr "Date planifiée"
 
 #. module: odoo_stock_reservation
 #: model:ir.model.fields,field_description:odoo_stock_reservation.field_stock_move_reservation__date_deadline
 msgid "Deadline"
-msgstr ""
+msgstr "Date limite"
 
 #. module: odoo_stock_reservation
 #: model:ir.model.fields,field_description:odoo_stock_reservation.field_stock_move_reservation__delay_alert_date
 msgid "Delay Alert Date"
-msgstr ""
+msgstr "Alerte de retard"
 
 #. module: odoo_stock_reservation
 #: model:ir.model.fields,field_description:odoo_stock_reservation.field_stock_move_reservation__product_uom_qty
 msgid "Demand"
-msgstr ""
+msgstr "Demande"
 
 #. module: odoo_stock_reservation
 #: model:ir.model.fields,field_description:odoo_stock_reservation.field_stock_move_reservation__name
@@ -246,7 +246,7 @@ msgstr "Nom affiché"
 #. module: odoo_stock_reservation
 #: model:ir.model.fields,field_description:odoo_stock_reservation.field_stock_reservation__user_ids
 msgid "Email Notification"
-msgstr ""
+msgstr "Notification par Email"
 
 #. module: odoo_stock_reservation
 #: model:ir.model.fields,help:odoo_stock_reservation.field_stock_move_reservation__has_tracking
