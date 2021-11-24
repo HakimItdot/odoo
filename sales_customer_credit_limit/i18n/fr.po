@@ -18,48 +18,48 @@ msgstr ""
 #. module: sales_customer_credit_limit
 #: model_terms:ir.ui.view,arch_db:sales_customer_credit_limit.credit_limit_exceed_wizard
 msgid "Amount Due"
-msgstr ""
+msgstr "Montant dû"
 
 #. module: sales_customer_credit_limit
 #: model_terms:ir.ui.view,arch_db:sales_customer_credit_limit.view_order_form_inherit_credit_limit
 msgid "Approve Sale"
-msgstr ""
+msgstr "Autoriser"
 
 #. module: sales_customer_credit_limit
 #: model_terms:ir.ui.view,arch_db:sales_customer_credit_limit.credit_limit_exceed_wizard
 msgid "Cancel"
-msgstr ""
+msgstr "Annuler"
 
 #. module: sales_customer_credit_limit
 #: model:ir.model.fields,field_description:sales_customer_credit_limit.field_credit_limit_exceed_wizard__create_uid
 msgid "Created by"
-msgstr ""
+msgstr "Crée par"
 
 #. module: sales_customer_credit_limit
 #: model:ir.model.fields,field_description:sales_customer_credit_limit.field_credit_limit_exceed_wizard__create_date
 msgid "Created on"
-msgstr ""
+msgstr "Crée le"
 
 #. module: sales_customer_credit_limit
 #: model:ir.model.fields,field_description:sales_customer_credit_limit.field_credit_limit_exceed_wizard__credit_limit
 msgid "Credit Limit"
-msgstr ""
+msgstr "Limite de crédit"
 
 #. module: sales_customer_credit_limit
 #: model:ir.model,name:sales_customer_credit_limit.model_credit_limit_exceed_wizard
 msgid "Credit limit exceed wizard"
-msgstr ""
+msgstr "Fenêtre pop-up"
 
 #. module: sales_customer_credit_limit
 #: model:ir.model.fields,field_description:sales_customer_credit_limit.field_credit_limit_exceed_wizard__partner_currency_id
 msgid "Currency"
-msgstr ""
+msgstr "Devise"
 
 #. module: sales_customer_credit_limit
 #: model:ir.model.fields,field_description:sales_customer_credit_limit.field_credit_limit_exceed_wizard__partner_id
 #: model_terms:ir.ui.view,arch_db:sales_customer_credit_limit.credit_limit_exceed_wizard
 msgid "Customer"
-msgstr ""
+msgstr "Client"
 
 #. module: sales_customer_credit_limit
 #: model:ir.model.fields,field_description:sales_customer_credit_limit.field_credit_limit_exceed_wizard__display_name
@@ -70,23 +70,23 @@ msgstr "Nom affiché"
 #. module: sales_customer_credit_limit
 #: model_terms:ir.ui.view,arch_db:sales_customer_credit_limit.credit_limit_exceed_wizard
 msgid "Exceed Limit"
-msgstr ""
+msgstr "Dépacement de la limite"
 
 #. module: sales_customer_credit_limit
 #: model:ir.model.fields,field_description:sales_customer_credit_limit.field_credit_limit_exceed_wizard__exceeded_credit
 msgid "Exceeded Amount"
-msgstr ""
+msgstr "Montant du dépacement"
 
 #. module: sales_customer_credit_limit
 #: model:ir.model.fields,field_description:sales_customer_credit_limit.field_credit_limit_exceed_wizard__id
 #: model:ir.model.fields,field_description:sales_customer_credit_limit.field_sale_order__id
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. module: sales_customer_credit_limit
 #: model_terms:ir.ui.view,arch_db:sales_customer_credit_limit.credit_limit_exceed_wizard
 msgid "Invoice"
-msgstr ""
+msgstr "Facture"
 
 #. module: sales_customer_credit_limit
 #: model:ir.model.fields,field_description:sales_customer_credit_limit.field_credit_limit_exceed_wizard____last_update
@@ -97,57 +97,57 @@ msgstr "Dernière modification le"
 #. module: sales_customer_credit_limit
 #: model:ir.model.fields,field_description:sales_customer_credit_limit.field_credit_limit_exceed_wizard__write_uid
 msgid "Last Updated by"
-msgstr ""
+msgstr "Dernière mise à jour par"
 
 #. module: sales_customer_credit_limit
 #: model:ir.model.fields,field_description:sales_customer_credit_limit.field_credit_limit_exceed_wizard__write_date
 msgid "Last Updated on"
-msgstr ""
+msgstr "Dernière mise à jour le"
 
 #. module: sales_customer_credit_limit
 #: model:ir.model.fields,field_description:sales_customer_credit_limit.field_credit_limit_exceed_wizard__message
 msgid "Message"
-msgstr ""
+msgstr "Message"
 
 #. module: sales_customer_credit_limit
 #: model:ir.model.fields,field_description:sales_customer_credit_limit.field_credit_limit_exceed_wizard__order_id
 msgid "Order"
-msgstr ""
+msgstr "Commande"
 
 #. module: sales_customer_credit_limit
 #: model:ir.model.fields,field_description:sales_customer_credit_limit.field_credit_limit_exceed_wizard__order_amount
 msgid "Order Amount"
-msgstr ""
+msgstr "Montant de la commande"
 
 #. module: sales_customer_credit_limit
 #: model_terms:ir.ui.view,arch_db:sales_customer_credit_limit.credit_limit_exceed_wizard
 msgid "Order Date"
-msgstr ""
+msgstr "Date de la commande"
 
 #. module: sales_customer_credit_limit
 #: model_terms:ir.ui.view,arch_db:sales_customer_credit_limit.credit_limit_exceed_wizard
 msgid "Order Number"
-msgstr ""
+msgstr "N° commande"
 
 #. module: sales_customer_credit_limit
 #: model:ir.model.fields,field_description:sales_customer_credit_limit.field_credit_limit_exceed_wizard__overdue_invoice_amount
 msgid "Overdue Amount"
-msgstr ""
+msgstr "Montant excédant"
 
 #. module: sales_customer_credit_limit
 #: model:ir.model.fields,field_description:sales_customer_credit_limit.field_credit_limit_exceed_wizard__pending_invoice_ids
 msgid "Pending invoices"
-msgstr ""
+msgstr "Factures en attente"
 
 #. module: sales_customer_credit_limit
 #: model:ir.model.fields.selection,name:sales_customer_credit_limit.selection__sale_order__state__sale
 msgid "Sale Order"
-msgstr ""
+msgstr "Commande"
 
 #. module: sales_customer_credit_limit
 #: model:ir.model.fields,field_description:sales_customer_credit_limit.field_credit_limit_exceed_wizard__unpaid_order_ids
 msgid "Sale orders (Unpaid)"
-msgstr ""
+msgstr "Commandes non payées"
 
 #. module: sales_customer_credit_limit
 #: model:ir.model,name:sales_customer_credit_limit.model_sale_order
@@ -157,7 +157,7 @@ msgstr "Bon de commande"
 #. module: sales_customer_credit_limit
 #: model_terms:ir.ui.view,arch_db:sales_customer_credit_limit.credit_limit_exceed_wizard
 msgid "Sales Orders"
-msgstr ""
+msgstr "Commandes"
 
 #. module: sales_customer_credit_limit
 #: model:ir.model.fields,field_description:sales_customer_credit_limit.field_sale_order__state
@@ -167,34 +167,34 @@ msgstr "Statut"
 #. module: sales_customer_credit_limit
 #: model_terms:ir.ui.view,arch_db:sales_customer_credit_limit.credit_limit_exceed_wizard
 msgid "Tax Total"
-msgstr ""
+msgstr "Total des taxes"
 
 #. module: sales_customer_credit_limit
 #: model:ir.model.fields.selection,name:sales_customer_credit_limit.selection__sale_order__state__need_approval
 msgid "To Approve"
-msgstr ""
+msgstr "A confirmer"
 
 #. module: sales_customer_credit_limit
 #: model_terms:ir.ui.view,arch_db:sales_customer_credit_limit.credit_limit_exceed_wizard
 msgid "Total"
-msgstr ""
+msgstr "Total"
 
 #. module: sales_customer_credit_limit
 #: model_terms:ir.ui.view,arch_db:sales_customer_credit_limit.credit_limit_exceed_wizard
 msgid "Total Tax Excluded"
-msgstr ""
+msgstr "Total HT"
 
 #. module: sales_customer_credit_limit
 #: model_terms:ir.ui.view,arch_db:sales_customer_credit_limit.credit_limit_exceed_wizard
 msgid "Total Tax Included"
-msgstr ""
+msgstr "Total TTC"
 
 #. module: sales_customer_credit_limit
 #: model:ir.model.fields,field_description:sales_customer_credit_limit.field_credit_limit_exceed_wizard__pending_amount
 msgid "Unpaid Amount"
-msgstr ""
+msgstr "Montant non payé"
 
 #. module: sales_customer_credit_limit
 #: model:ir.model.fields,help:sales_customer_credit_limit.field_credit_limit_exceed_wizard__partner_currency_id
 msgid "Utility field to express amount currency"
-msgstr ""
+msgstr "Devise"
